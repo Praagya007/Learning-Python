@@ -87,8 +87,8 @@ print(f"Circumference of circle: {circum_of_circle:.2f}")
 
 
 #6. Get radius using user input.
-radius=float(input("Enter a number: "));
-areaOfCircle=math.pi*radius**2;
+radius=float(input("Enter a number: "))
+areaOfCircle=math.pi*radius**2
 print(f"{areaOfCircle:.2f}")
 
 #7. Get first name, last name, country, and age as user input:
@@ -104,4 +104,4 @@ print(f"Country: {user_country}")
 print(f"Age: {user_age}")
 
 #8. To check for reserved keywords
-help('keywords');
+help('keywords')
